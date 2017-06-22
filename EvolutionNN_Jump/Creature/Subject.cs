@@ -191,7 +191,7 @@ namespace EvolutionNN_Jump.Creature
         {
             Subject child = new Subject(this);
             SubjectManager.AddSubject(child);
-            Life -= 45;
+            Life = 0;
         }
 
 
